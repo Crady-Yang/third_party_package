@@ -1,0 +1,21 @@
+{
+    "name": "crady_yang/third_party_package",
+    "description": "第三方集成",
+    "require": {
+        "laravel/socialite": "^3.0",
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cradyang",
+            "email": "cradyang@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Third\\One\\": "src/Third/One",
+            "Third\\Two\\": "src/Third/Two"
+        }
+    }
+}
